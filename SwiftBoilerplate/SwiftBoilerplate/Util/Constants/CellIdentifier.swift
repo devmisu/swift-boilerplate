@@ -8,5 +8,7 @@
 
 struct CellIdentifier {
 
+    private init() { }
+    
     // write your code here
 }

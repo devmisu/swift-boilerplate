@@ -8,5 +8,7 @@
 
 struct Message {
     
-    // Code here...
+    private init() { }
+    
+    // write your code here
 }

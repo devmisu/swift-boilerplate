@@ -7,6 +7,8 @@
 //
 
 struct Segue {
-
+    
+    private init() { }
+    
     // write your code here
 }

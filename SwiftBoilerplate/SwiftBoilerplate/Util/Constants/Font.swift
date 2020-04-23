@@ -9,6 +9,12 @@
 import UIKit
 
 struct Font {
-
+    
+    private init() { }
+    
+    private static func font(_ name: String, size: CGFloat) -> UIFont {
+        return UIFont(name: name, size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    
     // write your code here
 }

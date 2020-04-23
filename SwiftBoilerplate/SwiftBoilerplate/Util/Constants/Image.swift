@@ -10,5 +10,7 @@ import UIKit
 
 struct Image {
 
+    private init() { }
+    
     // write your code here
 }

@@ -10,5 +10,7 @@ import UIKit
 
 struct Color {
     
+    private init() { }
+    
     // write your code here
 }
