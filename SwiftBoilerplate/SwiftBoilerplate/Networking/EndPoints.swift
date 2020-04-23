@@ -6,8 +6,6 @@
 //  Copyright © 2020 Felix Chacaltana. All rights reserved.
 //
 
-import UIKit
-
 struct EndPoints {
 
     private struct Environment {
@@ -19,5 +17,5 @@ struct EndPoints {
     
     private static let baseURL = Environment.development
     
-    // Code here...
+    // write your code here
 }
