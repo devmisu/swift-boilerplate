@@ -1,44 +1,79 @@
 # Swift Boilerplate
+
 My custom template for Swift projects.
 
 ## Project structure
+
+__* Base structure without pods__
+
 ```
 └─ SwiftBoilerplate
-   └─ Info.plist
-   └─ AppDelegate.swift
-   └─ SceneDelegate.swift
-   └─ SwiftBoilerplate.xcdatamodeld
    └─ SwiftBoilerplate
-   │  └─ Util
-   │  │  └─ Constants
-   │  │  │  └─ Closure.swift
-   │  │  │  └─ Color.swift
-   │  │  │  └─ Identifier.swift
-   │  │  │  └─ Message.swift
-   │  │  └─ Libs
-   │  │  └─ Transitions
-   │  │  │  └─ NavigationControllerManager.swift
-   │  │  │  └─ TransitionControllerFactory.swift
-   │  │  │  └─ BaseTransitionController.swift
-   │  └─ Resources
-   │  │  └─ Assets.xcassets
-   │  │  └─ Fonts
-   │  │  └─ Files
-   │  └─ Extension
-   │  └─ Entity
-   │  └─ Logic
-   │  └─ Networking
-   │  │  └─ EndPoints.swift
-   │  │  └─ Services
-   │  │  └─ Sockets
-   │  └─ Storage
-   │  └─ Storyboard
-   │  └─ Controller
+      └─ Util
+      └─ Resources
+      └─ Extension
+      └─ Entity
+      └─ Logic
+      └─ Networking
+      └─ Storage
+      └─ Storyboard
+      └─ Controller
 ```
 
-## Remove junk files
-Execute this command in root folder.
+## Useful commands
+
+| Title | Description |
+| --- | --- |
+| Remove junk files | `find . -name .keep -delete` |
+
+## Documentation
+
+- [x] Util
+- [ ] Resources
+- [ ] Extension
+- [ ] Entity
+- [ ] Logic
+- [ ] Networking
+- [ ] Storage
+- [ ] Storyboard
+- [ ] Controller
+
+## Util
 
 ```
-find . -name .keep -delete
+└─ Util
+   └─ Constants
+   └─ Libs
+   └─ Transitions   
 ```
+
+### Constants
+
+_(Falta traducir)_
+
+```
+└─ Constants
+   └─ CellIdentifier.swift
+   └─ Closure.swift
+   └─ Color.swift 
+   └─ Font.swift
+   └─ Image.swift
+   └─ Message.swift
+   └─ Segue.swift
+```
+
+Contiene las constantes globales que serán usadas en la aplicación.
+
+Gracias a los structs encapsulamos las constantes con el fin de mantener el orden y jerarquia en los archivos.
+
+### Libs
+
+_(Falta traducir)_
+
+Contiene todos los archivos de terceros que necesitemos para el desarrollo de la aplicación.
+
+### Transitions
+
+_(Falta traducir)_
+
+Contiene las transiciones que serán usadas en la aplicación.
